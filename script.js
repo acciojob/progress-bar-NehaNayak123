@@ -30,11 +30,12 @@ function render(){
         }
     })
 
-    if(curr===1){
-        prev.disabled=true;
-    }else{
+    if(curr>1){
         prev.disabled=false;
     }
+	// else{
+        // prev.disabled=false;
+    // }
 
     if(curr===circles.length){
         next.disabled=true;
