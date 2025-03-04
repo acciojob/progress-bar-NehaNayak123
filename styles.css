@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    section{
+        display: flex;
+        gap: 5px;
+        div{
+            padding: 5px;
+            border: 2px solid blue;
+
+        }
+    }
+}
+.active{
+
+    background-color: blue;
+    color: white;
+}
